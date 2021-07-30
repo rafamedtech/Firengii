@@ -26,9 +26,18 @@ export default {
   cursor: pointer;
   text-decoration: none;
 }
+
+.card .image {
+  transition: 0.3s ease;
+}
 .image {
   height: 65%;
   border-radius: 0.5rem;
+}
+
+.card:hover .image {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
 }
 .header {
   font-size: 1.15rem;

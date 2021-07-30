@@ -17,9 +17,6 @@
 </template>
 
 <script>
-// import Hero from "@/components/Hero";
-// import LargeCardDisplay from "@/components/LargeCardDisplay";
-
 import { largeCardSections, smallCardSections } from "@/assets/data.js";
 
 export default {
@@ -29,9 +26,5 @@ export default {
       smallCardSections
     };
   }
-  // components: {
-  //   Hero,
-  //   LargeCardDisplay
-  // }
 };
 </script>

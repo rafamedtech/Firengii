@@ -26,5 +26,12 @@ export default {
 .image {
   width: 100%;
   height: 100%;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+}
+
+.image:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
 }
 </style>
