@@ -54,7 +54,7 @@ export default {
   height: 100%;
   top: 0;
 }
-.nuxt-link {
+.button {
   padding: 1rem 4rem;
   border-radius: 100rem;
   background-color: rgb(231, 81, 43);
@@ -63,7 +63,7 @@ export default {
   font-weight: 700;
   transition: 0.5s;
 }
-.nuxt-link:hover {
+.button:hover {
   /* width: 21.5rem; */
   transform: scale(1.1);
 }
