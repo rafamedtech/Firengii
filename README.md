@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # client
 
 ## Build Setup
@@ -67,3 +68,7 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+=======
+# Firengii
+Fire Extinguishers Rental Web App
+>>>>>>> 004a6806043accb91e2f90e35faef6049c9eadab
