@@ -6,7 +6,7 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto
         illum quidem asperiores, cum nisi aperiam eius ipsa sapiente odit!
       </p>
-      <button class="button btn">Start Looking</button>
+      <nuxt-link to="/products" class="button btn">Start Looking</nuxt-link>
     </div>
     <img
       class="image"
@@ -54,7 +54,7 @@ export default {
   height: 100%;
   top: 0;
 }
-.button {
+.nuxt-link {
   padding: 1rem 4rem;
   border-radius: 100rem;
   background-color: rgb(231, 81, 43);
@@ -63,7 +63,7 @@ export default {
   font-weight: 700;
   transition: 0.5s;
 }
-.button:hover {
+.nuxt-link:hover {
   /* width: 21.5rem; */
   transform: scale(1.1);
 }
