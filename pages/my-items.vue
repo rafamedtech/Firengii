@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <ClearMyItems />
     <MyItem v-for="item in myRentals" :key="item.id" :item="item" />
   </div>
 </template>
@@ -13,5 +14,3 @@ export default {
   }
 };
 </script>
-
-<style scoped></style>
